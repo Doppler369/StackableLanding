@@ -7,7 +7,7 @@ const Developer = () => {
     <div className="developers">
       <div className="container">
         <div className="left">
-          <h2>Build on Ajna Finance Protocol</h2>
+          <h2>Built on Ajna Finance Protocol</h2>
           <p>
             Checkout the <span className="blue">documentation </span>, the{" "}
             <span className="blue">quick start</span> or a guide below to
