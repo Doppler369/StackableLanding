@@ -24,16 +24,16 @@ const Navbar = () => {
         <ul className={click ? "nav active" : "nav"}>
           <li className="nav-item">
             <a
-              href="https://ajna.finance/"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Platform
+              Products
             </a>
           </li>
           <li className="nav-item">
             <a
-              href="https://github.com/ajna-finance"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              href="https://twitter.com/ajnafi"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,7 +51,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              href="https://faqs.ajna.finance/faqs/general/"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >

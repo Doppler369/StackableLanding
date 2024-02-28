@@ -6,19 +6,28 @@
 }
 
 .about h2 {
-  margin: 1rem 0;
+  margin: 0.5 rem 0 rem;
   color: #f8f8f8;
 }
 
-.about .container {
-  max-width: 1140px;
-  margin: auto;
+.about .icon-container {
+  background-color: #000; 
+  border-radius: 0px;
+  display: inline-flex;
+  padding: 0 rem;
+  justify-content: center; /* Center the logo horizontally */
+  align-items: center; /* Center the logo vertically */
 }
 
-.about .container > p {
-  margin: 1rem 0 3rem 0;
-  font-size: 1.8rem;
-  color: #f8f8f8;
+.card-link {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits text color from parent elements */
+}
+
+.about .icon-container img {
+  width: 70px; /* Example size, adjust as needed */
+  height: auto; /* Maintains aspect ratio */
+  display: block;
 }
 
 .about .card-container {
@@ -54,12 +63,6 @@
   color: #ccc;
 }
 
-.about .icon-container {
-  background-color: var(--primary-blue);
-  border-radius: 50px;
-  display: inline-flex;
-  padding: 1rem;
-}
 
 .about .icon {
   font-size: 2rem;
@@ -71,13 +74,3 @@
   margin-top: 1rem;
 }
 
-@media screen and (max-width: 940px) {
-  .about .card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 600px) {
-  .about .card-container {
-    grid-template-columns: 1fr;
-  }
-}

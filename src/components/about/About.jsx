@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
-import { SiHiveBlockchain, SiStrapi, SiFsecure } from "react-icons/si";
-import { VscServerProcess } from "react-icons/vsc";
+import Aloelogo from "../../assets/aloelogo.png";
+import Ajnalogo from "../../assets/ajnalogo.png";
+import Panopticlogo from "../../assets/panopticlogo.png";
+import Uniswaplogo from "../../assets/uniswaplogo.png";
 import AboutCard from "./AboutCard";
 
 const About = () => {
@@ -9,40 +11,45 @@ const About = () => {
     <div className="about">
       <div className="container">
         <h2></h2>
-        <p>Deploy an Isolated Lending Pool for any ERC20 or ERC721 NFT Token</p>
+        <p>Stackable Finance empowers users by plugging into the legends around us</p>
         <div className="card-container">
-          <div className="card">
-            <AboutCard
-              icon={<SiHiveBlockchain className="icon" />}
-              heading="INNOVATIVE DESIGN"
-              text="Ajna is a new protocol for transparent, permissionless lending and borrowing."
-            />
+          <a href="https://uniswap.org/" className="card-link">
+            <div className="card">
+              <AboutCard
+                icon={<img src={Uniswaplogo} alt="Uniswap Logo" className="icon" />}
+                heading="Uniswap"
+                text="An industry-leading decentralized exchange. V3 introduced novel concentrated liquidity, next V4 introduces hooks to pools to redefine what it means to be programmable."
+              />
+            </div>
+          </a>
+          <a href="https://www.ajna.finance/" className="card-link">
+            <div className="card">
+              <AboutCard
+                icon={<img src={Ajnalogo} alt="Ajna Finance Logo" className="icon" />}
+                heading="Ajna Finance"
+                text="A non-custodial, peer-to-pool, permissionless system that doesn't rely on external price feeds. This innovation brings seamless lending, borrowing, and a truly decentralized experience."
+              />
+            </div>
+          </a>
+          <a href="https://aloe.capital/" className="card-link">
+            <div className="card">
+              <AboutCard
+                icon={<img src={Aloelogo} alt="Aloe Capital Logo" className="icon" />}
+                heading="Aloe Capital"
+                text="Offers permissionless lending on Uniswap by connecting lenders and market makers. Aloe II elevates capital optimization for yield seekers and active market makers to the next level."
+              />
+            </div>
+          </a>
+          <a href="https://panoptic.xyz/" className="card-link">
+            <div className="card">
+              <AboutCard
+                icon={<img src={Panopticlogo} alt="Panoptic Logo" className="icon" />}
+                heading="Panoptic"
+                text="DeFi options trading for any token on Uniswap V3. Allowing risk management, permissionless pools, and enhanced capital efficiency. A professional defi experience for any skill level."
+              />
+            </div>
+          </a>
           </div>
-          <div className="card">
-            <AboutCard
-              icon={<SiStrapi className="icon" />}
-              heading="INTEROPERABILITY"
-              text="Supports both fungible and non-fungible (NFT) assets as collateral, and anyone can create a lending market."
-            />
-          </div>
-          <div className="card">
-            <AboutCard
-              icon={<SiFsecure className="icon" />}
-              heading="TRUE DECENTRALIZATION"
-              text="Ajna protocol operates without token whitelists, allowing users to permissionlessly lend and borrow."
-            />
-          </div>
-          <div className="card">
-            <AboutCard
-              icon={<VscServerProcess className="icon" />}
-              heading="VERIFIED AUDITS"
-              text="In addition to rigorous testing , Ajna has code audits from industry leading agencies with verified reports."
-            />
-          </div>
-        </div>
-        <a href="https://ajnafi.com/ethereum/markets/" className="btn">
-          APP
-        </a>
       </div>
     </div>
   );

@@ -8,18 +8,18 @@ const Footer = () => {
         <div className="col">
           <h4>
             <a
-              href="https://www.ajna.finance/"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Product
+              Products
             </a>
           </h4>
         </div>
         <div className="col">
           <h4>
             <a
-              href="https://github.com/ajna-finance"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="col">
           <h4>
             <a
-              href="https://grants.ajnafi.com/"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,18 +41,18 @@ const Footer = () => {
         <div className="col">
           <h4>
             <a
-              href="https://discord.gg/v9Wca5deSc"
+              href="https://grants.ajnafi.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Discord
+              Community
             </a>
           </h4>
         </div>
         <div className="col">
           <h4>
             <a
-              href="https://faqs.ajna.finance/faqs/general"
+              href="https://x.com/stackablefi/"
               target="_blank"
               rel="noopener noreferrer"
             >

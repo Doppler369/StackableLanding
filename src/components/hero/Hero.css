@@ -3,7 +3,7 @@
     width: 100%;
     top: 90px;
     object-fit: contain;
-    color: #f4eeff;
+    color: ffffff;
 }
 #video {
     position: absolute;
@@ -29,7 +29,9 @@
 
 .hero .btn {
     margin: 1rem;
+    color:black;
 }
+
 
 .bottom-text h2 {
     font-size: 1.6rem;

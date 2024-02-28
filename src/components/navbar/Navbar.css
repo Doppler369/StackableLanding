@@ -68,12 +68,16 @@
   }
 }
 
+
 .btn.app-button {
-  .nav-right {
-    margin-right: 20px;
-  background-color: #1abbf0;
+  background-color: #6c36d0;
   color: white;
   text-decoration: none;
   border-radius: 30px;
   cursor: pointer;
+}
+
+
+.nav-right {
+  margin-right: 40px;
 }
